@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>CommonHelper.snk</AssemblyOriginatorKeyFile>
+    <Authors>Dmitriy Gavrikov</Authors>
+    <Version>1.0.1</Version>
+    <Description>Helpers for developers at every day.</Description>
+    <PackageProjectUrl>https://github.com/dgavrikov/Helper-Tools</PackageProjectUrl>
+    <PackageTags>Helper Gds</PackageTags>
+    <Copyright>Copyright Dmtriy Gavrikov 2019</Copyright>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+</Project>

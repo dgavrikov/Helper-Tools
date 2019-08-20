@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Dmitriy Gavrikov</Authors>
+    <Company>Dmitriy Gavrikov</Company>
+    <Description>Helpers for developers at every day. Data extention.</Description>
+    <Copyright>Copyright Dmtriy Gavrikov 2019</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/dgavrikov/Helper-Tools</PackageProjectUrl>
+    <PackageTags>Helper Gds Data</PackageTags>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Gds.Helper.Data.std20.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+  </ItemGroup>
+
+</Project>

@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gds.Helper", "Gds.Helper\Gds.Helper.csproj", "{E1BA3D39-4D2F-4BD4-A19F-0F02BA7B7F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gds.Helper.Data", "Gds.Helper.Data\Gds.Helper.Data.csproj", "{8FB60157-E9D8-45CB-8003-DD5E5DA712C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gds.Helper.Data", "Gds.Helper.Data\Gds.Helper.Data.csproj", "{8FB60157-E9D8-45CB-8003-DD5E5DA712C1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "undefined code", "undefined code", "{01A4CE9E-2FD2-40F8-85D4-CD92467A9A7F}"
 	ProjectSection(SolutionItems) = preProject
+		undefined code\DPI.cs = undefined code\DPI.cs
 		undefined code\MultiThreadingHelper.cs = undefined code\MultiThreadingHelper.cs
+		undefined code\ServiceHelper.cs = undefined code\ServiceHelper.cs
 	EndProjectSection
 EndProject
 Global

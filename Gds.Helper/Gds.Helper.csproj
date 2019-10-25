@@ -5,7 +5,7 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>Gds.Helper.std20.pfx</AssemblyOriginatorKeyFile>
     <Authors>Dmitriy Gavrikov</Authors>
-    <Version>1.0.1</Version>
+    <Version>1.0.3</Version>
     <Description>Helpers for developers at every day.</Description>
     <PackageProjectUrl>https://github.com/dgavrikov/Helper-Tools</PackageProjectUrl>
     <PackageTags>Helper Gds</PackageTags>

@@ -28,9 +28,10 @@ namespace Gds.Helper
                 x.Serialize(ms, obj);
                 b = ms.ToArray();
             }
-            var str = Encoding.UTF8.GetString(b);
-            return str;
+
+            return Encoding.UTF8.GetString(b);
         }
+
         /// <summary>
         /// Deserialize object from xml string.
         /// </summary>

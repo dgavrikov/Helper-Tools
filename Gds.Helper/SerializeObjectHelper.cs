@@ -18,14 +18,16 @@ namespace Gds.Helper
         {
             if (obj == null)
                 return "null";
-
+            
+            var xns = new XmlSerializerNamespaces();
+            xns.Add(string.Empty, string.Empty);
             var x = new XmlSerializer(obj.GetType());
 
             byte[] b;
 
             using (var ms = new MemoryStream())
             {
-                x.Serialize(ms, obj);
+                x.Serialize(ms, obj, xns);
                 b = ms.ToArray();
             }
 
